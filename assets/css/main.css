@@ -1385,13 +1385,13 @@
 
 @font-face {
     font-family: SanFrancisco;
-    src: url("../fonts/SanFranciscoText-Regular.otf") format("opentype");
+    src: url("../webfonts/SanFranciscoText-Regular.otf") format("opentype");
 }
 
 @font-face {
     font-family: SanFrancisco;
     font-weight: bold;
-    src: url("../fonts/SanFranciscoDisplay-Bold.otf") format("opentype");
+    src: url("../webfonts/SanFranciscoDisplay-Bold.otf") format("opentype");
 }
 
 	html {
