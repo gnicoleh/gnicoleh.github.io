@@ -131,7 +131,7 @@
 					I have been tasked with integrating 3 different pre-trained machine models (segmentation, CRAFT, and OCR) into Amazon's proprietary ROS.
 					These models work together to take in an image as an input and output the required information to be processed against some comparison logic
 					to determine if that image has a specific property. I was also tasked to use AWS Lambda to implement an annotation pipeline on SageMaker Ground
-					Truth to help get annotated images to test and train said models. <br>
+					Truth to help get annotated images to test and train said models. <br><br>
 					Prior to implementing both of these tasks, I wrote a design document for each of them where I explained my proposed approaches,
 					the pros and cons of each, and any integration tests to be done. Additionally, I analyzed a dataset of 10,000+ samples against the segmentation,
 					CRAFT, and OCR deep learning models, and plotted data visualizations of key findings derived from the analysis. I also authored a comprehensive
@@ -148,8 +148,12 @@
 								<span class="image logo left projecticon"><img src="images/thd.png" alt="" /></span>
 
                                 <h4 style="text-transform: none;">ROBOTICS & LiDAR | ROBOT OPERATING SYSTEM & PYTHON</h4>
-                                <p>On Fall 2022, I worked as a part-time Software Engineer Intern on the OrangeWorks Lab at The Home Depot. I worked alongside
-					another intern on a quadruped robot LiDAR scanning project using ROS to manipulate the point cloud data.
+                                <p>During Fall 2022, I worked as a part-time Software Engineer Intern at The Home Depot's OrangeWorks Lab. Collaborating closely with another intern, I contributed
+					to a project focused on utilizing a quadruped robot for LiDAR scanning in various distribution centers. Making use of Robot Operating System (ROS), we 
+					collected and manipulated point cloud data to enhance scanning precision. <br><br>
+					To improve the accuracy of the LiDAR scans, I extracted point clouds and developed a method to reduce the speed of the quadruped robot, significantly 
+					increasing the detail and reliability of the collected data. I designed and implemented several unit and integration tests in Python, ensuring the service 
+					achieved a remarkable 99% uptime during operations.
 				</p>
 								<span class="image main">
 									<img src="images/robodog.png" alt="" />
@@ -166,7 +170,14 @@
 
                                     <h2 style="margin-bottom:4px;">Game Suite</h2>
                                     <h4 style="text-transform: none;">DESKTOP APP | DEVELOPED IN C# & UNITY</h4>
-                                    <p>Developed a Unity app consisting of 5 games: Peg Solitaire, 2048, 8 Puzzle, Flappy Bird, & Rock, Paper, Scissors.</p>
+                                    <p>During Sumer 2022, I designed and developed a Unity application consisting of five games: Peg Solitaire, 2048, 8 Puzzle, Flappy Bird, and Rock, Paper, Scissors. 
+					    This project allowed me to gain hands-on experience in Unity development, C# programming, and agile project management, while also honing my skills in 
+					    applying software design principles and patterns. As part of the development process, I created various scenes, game objects, scripts, prefabs, and animations, 
+					    ensuring proper file organization and maintainability. <br> <br>
+					    My team implemented an agile methodology with 2-week long sprints, utilizing ZenHub for GitHub to manage project tasks and track progress. This approach 
+					    facilitated effective collaboration and continuous improvement throughout the project lifecycle. Additionally, we adhered to SOLID and GRASP principles, as well 
+					    as design patterns, to produce high-quality, scalable code.
+				    </p>
 									<span class="image main">
 										<img src="images/generics.png" alt="" />
 									</span>
@@ -180,7 +191,16 @@
 
                                     <h2 style="margin-bottom:4px;">Jordle</h2>
                                     <h4 style="text-transform: none;">APP | DEVELOPED IN JAVA & JavaFX</h4>
-                                    <p>Developed a playable Java Wordle UI to progressively guess a random 5-letter word correctly.</p>
+                                    <p>In Spring 2022, I develop a playable Java Wordle UI, named Jordle, an application that allows users to progressively guess a random 5-letter word correctly. 
+					    I was able to deepen my understanding of Java and JavaFX, as well as to practice designing responsive and interactive user interfaces. <br><br>
+					    I designed the main scene to display a 6x5 grid pane containing 30 label objects, each representing a letter of the word to be guessed. This grid layout 
+					    provided a clear and intuitive interface for users to input their guesses. The application also features two anonymous inner classes: one to handle action 
+					    events that display instructions in a pop-up window when the instructions button is clicked, and another to handle window events that confirm with the 
+					    user if they intend to exit the application. <br><br>
+					    To handle user input efficiently, I utilized lambda expressions to manage key events. These expressions assign letters to the corresponding labels in the 
+					    grid and check if the entered guess matches the target word. Additionally, I defined an inner class that overrides a KeyEvent handler, which is invoked 
+					    using a lambda expression whenever the user releases a key.
+				    </p>
 									<span class="image main">
 										<img src="images/jordle.png" alt="" />
 									</span>
